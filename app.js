@@ -8,6 +8,7 @@
  */
 
 /* jshint node: true, devel: true */
+/* Updated the code for the readme */
 'use strict';
 
 var customRules = {};
