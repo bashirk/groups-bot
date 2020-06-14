@@ -1,10 +1,9 @@
-# DMS Software Bot.  A simple conversation bot for Facebook
+# Groups Bot.  A community locator bot for online groups
 
-This project is an example server for Messenger Platform built in Node.js. It was forked from the Facebook example.
+This project is a community locator bot built for the Facebook hackathon. This bot was built in order to help people keep up with friends online (and maintain) during this period of staying home, while also helping users discover new communities related to their interests.
 
-With this app, you can build a structued conversation to communicate with your clients. 
+With this bot, you can easily keep up and connect with various online communities.
 
-You can also see examples of the different types of Structured Messages like buttons, carousel, quick reply, etc. 
 
 It contains the following functionality:
 
@@ -16,13 +15,13 @@ It contains the following functionality:
 * Custom keyword responses
 * Structured conversation support
 
-Follow the [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to learn about settting up your own FB robot in more detail.  This project can be used as a substitute for the github project in the tutorial.
+Follow this [walk-through](https://developers.facebook.com/docs/messenger-platform/quickstart) to learn about settting up your own FB robot in more detail.  This project can be used as a substitute for the github project in the tutorial.
 
 ## License
 
 See the LICENSE file in the root directory of this source tree. Feel free to use and modify the code.
 
-## Get Started
+## Getting Set Up
 
 1. Sign up for you own Github account
 2. Fork this project so that you can edit it
@@ -41,7 +40,7 @@ Thats it. If everything is good, you can open your Page in Messenger and the bot
 
 To get the bot open to the world you have to go through a review process. It took less than a week for my bot.
 
-## Adding context to your bot
+## Adding context to the bot
 The script.json file will guide the bot to the content.  The script.json associates keywords with filenames under the script directory.  The HOME keyword is associated with script/HOME.json for example.  You can edit the file in Github with the pencil icon.  The keywords and filenames are in capital letters but the user can type in mixed case.
 
 The last line in the file is a URL for the thumbs up button.  The attachements the bot can look at the incoming URL and respond as if something was typed in.  You can get the URL for FB images from the Heroku logs. 
@@ -152,4 +151,3 @@ Great question! Now that you've found your bug and fixed it, you want to redeplo
 
         git push heroku master
 
-"# groups-bot" 

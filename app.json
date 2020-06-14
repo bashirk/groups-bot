@@ -1,6 +1,6 @@
 {
-  "name": "DMS Software Bot",
-  "description": "A Facebook Bot.",
+  "name": "Community Bot",
+  "description": "A Bot for locating online communities.",
   "repository": "https://github.com/bashirk/group-bot",
   "logo": "https://raw.githubusercontent.com/matthewericfisher/fb-robot/master/img/icon.png",
   "env": {
